@@ -1,0 +1,28 @@
+{
+
+"enquestes": [{
+ "id": 1,
+ "titol": "Avaluació del servei",
+ "activa": true,
+ "preguntes": [
+  {
+   "ordre": 1, "text": "Valora l'atenció rebuda pel nostre servei", "tipus": "opcio_multiple", "opcions": [
+	"Excel·lent",
+	"Bona",
+	"Millorable"]},
+  {
+   "ordre": 2, "text": "Tens alguna proposta de millora?", "tipus": "text_lliure"}]},
+{
+"id": 2,
+"titol": "Configuració de notificacions",
+"activa": true,
+"preguntes": [
+ {
+  "ordre": 1, "text": "Tria per quina via vols rebre les notificacions del nostre servei", "tipus": "opcio_multiple", "opcions": [
+	"Correu electrònic",
+	"SMS",
+	"Trucada telefònica"]},
+  {
+   "ordre": 2, "text": "Escriu el teu correu electrònic o número de telèfon", "tipus": "text_lliure"}],
+ }]
+}
